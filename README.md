@@ -2,6 +2,10 @@
 ## Plantilla para la práctica de Ecosistema (IWVG-ecosystem)
 > Plantilla con Spring básico (API, test) 
 
+## Estado del código
+[![Build Status](https://travis-ci.org/Florsalcedowd/ide1.svg?branch=master)](https://travis-ci.org/Florsalcedowd/ide1)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aide1&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aide1)
+
 ## Ecosistema
 * Java
 * Maven
