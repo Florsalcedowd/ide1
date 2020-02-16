@@ -1,21 +1,18 @@
 language: java
+jdk:
+  - oraclejdk9
 branches:
   only:
-    - develop
     - master
+    - develop
+dist: trusty
 notifications:
   email:
     recipients:
-      - florenciasalcedo@gmail.com
-services:
- - mysql
-before_install:
- - mysql -e 'CREATE DATABASE IF NOT EXISTS forge;'
+      - florenciasalcedo13@gmail.com
 script:
-  - mvn verify
   #Test unitario y de integracion con cobertura (jacoco)
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
 
   #SONARCLOUD
   - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=florsalcedowd -Dsonar.login=$SONAR
-
