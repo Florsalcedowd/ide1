@@ -14,13 +14,6 @@
     <name>${project.groupId}.${project.artifactId}</name>
     <description>Ecosystem</description>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.7.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-
     <properties>
         <!-- Encode -->
         <encoding>UTF-8</encoding>
@@ -131,5 +124,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <developers>
+        <developer>
+            <name>Florencia Salcedo</name>
+            <id>F.Salcedo</id>
+            <email>florenciasalcedo13@gmail.com</email>
+            <organization>UTN FRM</organization>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
 
 </project>
